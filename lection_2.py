@@ -7,12 +7,16 @@ while True:
         print('Invalid SSN, please check the format (0000)!!!')
         continue
 
+        #digit all checker
+
         if not user_ssn_number.isdigit():
             print("Please enter digit only!!!")
             continue
 
             if int(user_ssn_number) not in ssn_white_list:
                 print('Your permissions are prohibited, please contact your manager!')
+
+                print('U are welcome!')
 
 
 
